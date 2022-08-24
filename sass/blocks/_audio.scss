@@ -1,0 +1,43 @@
+.audio {
+  width: 100%;
+  height: auto;
+  margin-bottom: 200px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .audio__left {
+      width: 445px;
+      margin-right: 125px;
+
+      &-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: $text-color;
+        margin-bottom: 32px;
+        span{
+            color: $main-color;
+        }
+      }
+      &-text {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: $text-color;
+        opacity: 0.5;
+      }
+    }
+    .audio-right {
+      background-image: url(../../images/audio_gear.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 540px;
+      height: 588px;
+      border-radius: 8px;
+    }
+  }
+}
